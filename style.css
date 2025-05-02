@@ -44,3 +44,21 @@ a1{
  .menu li a:hover{
     background-color:rgb(68, 179, 156) ;
  }
+ .container{
+        background: rgba(68, 179, 157, 0.136);
+        padding: 20px;
+        font-size: 2vw;
+ }
+ table{
+    color: black;
+    font-size: 2vw;
+    border-collapse: collapse;/*Cambia los margenes de la tabla a una liena sencillas*/
+ }
+ th{
+    background: black;
+    color: aliceblue;
+    padding: 5px;
+ }
+ td{
+    padding: 5px;
+ }
