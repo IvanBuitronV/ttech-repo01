@@ -9,14 +9,38 @@ heard{
     padding: 20px;
     align-items: center;/*Alinea en el eje vertical en el centro*/
 }
- 
 img {
     border-radius: 5%;
     margin-right: 20px;
     box-shadow: 0 0 5px;
 }
-
 a1{
     color: black;
     font-weight: 600;
 }
+.menu{
+    list-style: none;
+    display: grid;/*Alineacion automatica*/
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));/*Hace que los bloque se adapten automaticamente*/
+    padding: 0;
+    background: #092327;
+    margin: auto;
+    width: 100vm;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    display: block;
+    font-size: 1.5vw;
+    
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+ .menu li a:hover{
+    background-color:rgb(68, 179, 156) ;
+ }
