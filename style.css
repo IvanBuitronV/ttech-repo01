@@ -52,6 +52,7 @@ a1{
  table{
     color: black;
     font-size: 2vw;
+    
     border-collapse: collapse;/*Cambia los margenes de la tabla a una liena sencillas*/
  }
  th{
@@ -62,3 +63,26 @@ a1{
  td{
     padding: 5px;
  }
+
+input{
+    color:rgb(0, 0, 0) ;
+    padding: 10px;
+    width: 50%;
+    border-radius: 5px;
+    font-size: 2vw;
+    border: rgb(245, 247, 247);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /*aplica un degradado alrededor de los inputs*/  
+}
+input:focus{
+    color: rgb(62, 144, 132);
+    border:rgb(0, 0, 0) ;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 10px;
+    background-color: rgba(62, 144, 132, 0.159);
+    padding: 10px ;
+    width: 50%;
+}
