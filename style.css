@@ -1,0 +1,22 @@
+body{
+    font-family: Helvetica;
+    margin: 0;
+}
+heard{
+    font-size: 2.5vw;/*Hace que el texto sea proporcional a la pantalla*/
+    display: flex;/*Sirve para facilitar la alineacion y distribucion de elementos*/
+    background: linear-gradient(315deg,rgb(62, 144, 132),rgb(68, 179, 156),rgb(131, 214, 178) );
+    padding: 20px;
+    align-items: center;/*Alinea en el eje vertical en el centro*/
+}
+ 
+img {
+    border-radius: 5%;
+    margin-right: 20px;
+    box-shadow: 0 0 5px;
+}
+
+a1{
+    color: black;
+    font-weight: 600;
+}
